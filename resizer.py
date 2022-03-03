@@ -4,7 +4,7 @@ from PIL import Image
 print('By what do you want to multiply your Textures?')
 multipl = input()
 print('How is your texture foler named?')
-dname = input('textures')
+dname = input()
 if dname == '':
     dname = 'textures'
 print('Remove half-transparent? y/n')
